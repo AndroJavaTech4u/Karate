@@ -1,0 +1,4 @@
+00:19:34.996 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+00:19:35.019 [print] hello karate
+00:19:35.026 [print] hello surya java
+00:19:35.036 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js

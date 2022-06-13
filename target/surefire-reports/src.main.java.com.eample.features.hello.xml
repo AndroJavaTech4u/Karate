@@ -1,0 +1,18 @@
+<testsuite failures="1" name="src/main/java/com/eample/features/hello.feature" skipped="0" tests="2" time="0.009166">
+  <testcase classname="src.main.java.com.eample.features.hello" name="Hello word scenario" time="0.009166">
+    <system-out>* print 'hello karate' .................................................... passed
+* print 'hello surya java' ................................................ passed</system-out>
+  </testcase>
+  <testcase classname="src.main.java.com.eample.features.hello" name="Sum of Two Number" time="0">
+    <failure message="hello.feature:8 - no step-definition method match found for: def num1=100">* print 'hello karate' .................................................... passed
+* print 'hello surya java' ................................................ passed
+* def num1=100 ............................................................ failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: hello.feature:8 - no step-definition method match found for: def num1=100&#13;
+	at ✽.* def num1=100 (hello.feature:8)&#13;
+
+* def num2=100 ............................................................ skipped
+* print result='sum='+ (num1+num2) ........................................ skipped</failure>
+  </testcase>
+</testsuite>

@@ -1,0 +1,1 @@
+{"features":1,"ignored":0,"efficiency":0.007556306677658698,"failures":{"src.main.java.com.eample.features.hello":"hello.feature:8 - no step-definition method match found for: def num1=100"},"totalTime":9.1658,"threads":1,"scenarios":2,"failed":1,"passed":1,"version":"0.9.6","elapsedTime":1213.0}
